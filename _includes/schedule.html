@@ -1,0 +1,66 @@
+<table class="schedule schedule-{{ include.day }}">
+{% assign day = include.day %}
+{% if day == "Saturday" %}
+ <tr>
+  <th>
+   <img alt="clock" src="/assets/icons/clock.svg" width="30px">
+  </th>
+  <th>
+    <span>
+      Event
+    </span>
+  </th>
+ </tr>
+{% elsif day == "Sunday" %}
+ <tr>
+  <th>
+    <span>
+      Event
+    </span>
+  </th>
+  <th>
+   <img alt="clock" src="/assets/icons/clock.svg" width="30px">
+  </th>
+ </tr>
+{% endif %}
+
+{% for item in site.data.events %}
+{% if day == "Saturday" %}
+{% if item.day == day %}
+ <tr>
+  <td>
+   {{ item.start_time }}
+  </td>
+  <td>
+    <span>
+      {% assign lang = page.language %}
+      {% if lang == "en" %}
+        {{ item.event.en }}
+      {% elsif lang == "zh" %}
+        {{ item.event.zh }}
+      {% endif %}
+    </span>
+  </td>
+ </tr>
+{% endif %}
+{% endif %}
+{% if day == "Sunday" %}
+{% if item.day == day %}
+ <tr>
+  <td>
+      {% assign lang = page.language %}
+      {% if lang == "en" %}
+        {{ item.event.en }}
+      {% elsif lang == "zh" %}
+        {{ item.event.zh }}
+      {% endif %}
+  </td>
+  <td>
+   {{ item.start_time }}
+  </td>
+ </tr>
+{% endif %}
+{% endif %}
+{% endfor %}
+
+</table>

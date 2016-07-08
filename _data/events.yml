@@ -1,0 +1,136 @@
+# Chronologically Arranged Schedule of Events
+
+## Saturday, Aug 7
+
+- event:
+    en: "Registration"
+    zh: "入場"
+  is_talk: false
+  day: "Saturday"
+  start_time: "9:00"
+  end_time: "10:00"
+
+- event:
+    en: "Opening"
+    zh: "開幕"
+  is_talk: false
+  day: "Saturday"
+  start_time: "10:00"
+  end_time: "10:30"
+
+- event:
+    en: "Religious past, Humanism future"
+    zh: "新加坡宗教與人本主義的來龍去脈"
+  is_talk: true
+  speaker: "Tattsi Tan"
+  speaker_bio: "President of Humanist Society Singapore"
+  speaker_from: "Singapore"
+  day: "Saturday"
+  start_time: "10:30"
+  end_time: "12:00"
+
+- event:
+    en: "Lunch"
+    zh: "午餐"
+  is_talk: false
+  day: "Saturday"
+  start_time: "12:00"
+  end_time: "13:00"
+
+- event:
+    en: "Weaknesses and Strengths"
+    zh: "虛實之間：東方的形勢謀略思維"
+  extended_title: "Strategic Thinking of Forces in The Art of War"
+  is_talk: true
+  speaker: "Peng, Chen-Hsuan"
+  speaker_bio: "Columnist of The New Lens"
+  speaker_from: "Taiwan"
+  day: "Saturday"
+  start_time: "13:00"
+  end_time: "14:00"
+
+- event:
+    en: "Humanism and Morality"
+    zh: "人文主義與道德：工作指南"
+  extended_title: "A Compass That Works"
+  is_talk: true
+  speaker: "Michael Bigelow"
+  speaker_bio: "Skeptic, Atheist, and Amateur Naturalist"
+  speaker_from: "USA, living in Macau"
+  day: "Saturday"
+  start_time: "14:00"
+  end_time: "14:50"
+
+- event:
+    en: "Scheherazade the Millennial"
+    zh: "新天方夜譚：以女性主義視角重述傳統故事"
+  extended_title: "Retelling Traditional Narratives Through a Feminist Lens"
+  is_talk: true
+  speaker: "Danielle Hill"
+  speaker_bio: "Internal Secretary, Director for Youth Affairs - Humanist Alliance Philippines International"
+  speaker_from: "Philippines"
+  day: "Saturday"
+  start_time: "15:00"
+  end_time: "16:00"
+
+- event:
+    en: "Militant Atheism"
+    zh: "人文主義發展仰賴基進無神論"
+  extended_title: "is Necessary for Humanism and Human Progress"
+  is_talk: true
+  speaker: "Michael Sherlock"
+  speaker_bio: "Atheist author, Founder of Human Rights for Atheists, Agnostics & Secularists"
+  speaker_from: "Australia, living in Japan"
+  day: "Saturday"
+  start_time: "16:00"
+  end_time: "17:00"
+
+## Sunday, Aug 7
+
+- event:
+    en: "Asian Working Group"
+    zh: "問題討論"
+  extended_title: "Open Meeting"
+  is_talk: false
+  day: "Sunday"
+  start_time: "9:00"
+  end_time: "12:00"
+
+- event:
+    en: "Lunch"
+    zh: "午餐"
+  is_talk: true
+  day: "Sunday"
+  start_time: "12:00"
+  end_time: "13:00"
+
+- event:
+    en: "The Aborigines Awakens"
+    zh: "原力覺醒：原住民傳統信仰的世俗價值"
+  extended_title: "Secular Values in Traditional Beliefs"
+  is_talk: true
+  speaker: "Feng, Chin-Wen"
+  speaker_bio: "President  of Taiwan Humanism Studio"
+  speaker_from: "Taiwan"
+  day: "Sunday"
+  start_time: "13:00"
+  end_time: "14:00"
+
+- event:
+    en: "The Conflicted Humanist"
+    zh: "衝突的人文主義"
+  is_talk: true
+  speaker: "Jason Sylvester"
+  speaker_bio: "Featured Author in Time Out Hong Kong, Contributing Writer to The Australian Atheist"
+  speaker_from: "Canada (Hong Kong)"
+  day: "Sunday"
+  start_time: "14:00"
+  end_time: "15:00"
+
+- event:
+    en: "Closing"
+    zh: "散場"
+  is_talk: true
+  day: "Sunday"
+  start_time: "15:00"
+  end_time: "16:00"

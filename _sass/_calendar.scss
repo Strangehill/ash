@@ -1,0 +1,35 @@
+.post-list li {
+  &:nth-child(odd) .cal  {
+    float: right;
+    margin-right: 0.5em;
+    margin-left: 0.15em;
+  }
+  &:nth-child(even) .cal  {
+    float: left;
+    margin-left: 0.5em;
+    margin-right: 0.15em;
+  }
+}
+
+.cal {
+  display: inline-block;
+  box-shadow: 6px 9px 9px #BBB;
+  text-align:center;
+  border-style: solid;
+  border-color: #000;
+  border-width: 0.1em;
+  border-radius: 0.6em;
+  &-month {
+    background-color: $reminder-red;
+    border-bottom-style: solid;
+    border-top-left-radius: 0.6em;
+    border-top-right-radius: 0.6em;
+  }
+  &-day-number {
+    font-size: 2rem;
+  }
+  &-day-of-week {
+    margin: auto 0.5em;
+  }
+}
+

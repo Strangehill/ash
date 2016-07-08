@@ -1,0 +1,50 @@
+.schedule {
+  text-align: center;
+  th span {
+    background-color: $reminder-red;
+    padding: 0.2em 2em;
+    border-radius: 0.25em;
+  }
+  &-Saturday {
+    float: right;
+    padding: 1em;
+    th:nth-child(even) {
+      text-align: right;
+      padding-right: 1em;
+    }
+    td:nth-child(even) {
+      text-align: right;
+      padding-left: 0.3em;
+    }
+    tr:nth-child(2n+3) td:nth-child(even) {
+      background-color: #CCF;
+      background-image: linear-gradient(to left, $background-color, $grey-color-light);
+    }
+    tr:nth-child(2n+2) td:nth-child(odd) {
+      background-color: #CCF;
+      background-image: linear-gradient(to right, $background-color, $grey-color-light);
+    }
+  }
+  &-Sunday {
+    float: left;
+    padding: 1em;
+    th:nth-child(odd) {
+      text-align: left;
+      padding-left: 1em;
+    }
+    td:nth-child(odd) {
+      text-align: left;
+      padding-right: 0.3em;
+    }
+    tr:nth-child(2n+2) td:nth-child(even) {
+      background-color: #CCF;
+      background-image: linear-gradient(to left, $background-color, $grey-color-light);
+    }
+    tr:nth-child(2n+3) td:nth-child(odd) {
+      background-color: #CCF;
+      background-image: linear-gradient(to right, $background-color, $grey-color-light);
+    }
+  }
+}
+
+
