@@ -46,6 +46,6 @@ Furthermore, we will try to combine the lesson of the past, with the best thinki
 
 ![a pencil for editing](/assets/icons/edit.svg){: style="height:1em;"} pencil icon made by [Gregor Cresnar]("http://www.flaticon.com/authors/gregor-cresnar"),  
 ![a user signing up](/assets/icons/sign-up.svg){: style="height:1em;"} sign-up icon made by [Freepik](http://www.freepik.com),  
-![a calendar and schedule](/assets/icons/calendar.svg){: style="height:1em;"} calendar, ![a clock](/assets/icons/clock.svg){: style="height:1em;"} clock, and ![a location on a map](/assets/icons/map-location.svg){: style="height:1em;"} map icons made by [Madebyoliver](http://www.flaticon.com/authors/madebyoliver).  
+![a calendar and schedule](/assets/icons/calendar.svg){: style="height:1em;"} calendar, ![a clock](/assets/icons/clock.svg){: style="height:1em;"} clock, and ![a location on a map](/assets/icons/map-location.svg){: style="height:1em;"} map, and ![a stack of coins](/assets/icons/coins.svg){: style="height:1em;"} coin stack icons made by [Madebyoliver](http://www.flaticon.com/authors/madebyoliver).  
 These icons are in the creative commons and were taken from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> under a <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a> license.
 
