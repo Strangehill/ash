@@ -21,7 +21,7 @@ and admission to all of the talks and panels during the conference.
 
 &#42;You can register here, or at the other site, it's all the same and there's no need to register again if you've done so somewhere else.
 
-The registration deadline is July 17th.
+The registration deadline is July 20th.
 
 {% include modules/google-form-registration-iframe.html %}
 

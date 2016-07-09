@@ -11,7 +11,7 @@ icon: /assets/icons/sign-up.svg
 
 費用包含2份午餐、茶點、筆記本、名牌、大會服
 
-報名截止:7/17
+報名截止:7/20
 報名
 2016 Asian Humanism Conference Registration Fee
 
