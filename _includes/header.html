@@ -10,7 +10,7 @@
 {% if page.language %}
   {% if page.language == "en" %}
     {% assign other-lang-path-to-index = "/zh/" %}
-    {% capture path_to_translation %}/zh/{{page.permalink}}{% endcapture %}
+    {% capture path_to_translation %}/zh{{page.permalink}}{% endcapture %}
   {% elsif page.language == "zh" %}
     {% assign this-lang-path-to-index = "/zh/" %}
     {% capture path_to_translation %}{{page.english_permalink}} {% endcapture %}
