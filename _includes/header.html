@@ -23,7 +23,11 @@
 
     <span class="site-title">
       <a href="{{ site.baseurl }}{{ this-lang-path-to-index }}">
+        {% if page.language == "en" %}
         {{ site.title }}
+        {% elsif page.language == "zh" %}
+        {{ site.title-zh }}
+        {% endif %}
       </a>
       <div>
         <a class="site-title-i18n" href="{{ site.baseurl }}{{ path_to_translation }}">

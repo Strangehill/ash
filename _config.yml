@@ -6,7 +6,8 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Asian Humanism Conference
+title: 2016 Asian Humanism Conference
+title-zh: 2016 亞洲人文主義大會
 email: asianhumanismcon@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   This site is open to suggestions.
