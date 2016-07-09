@@ -27,7 +27,7 @@ The local hosts of the event are Taichung Atheists, Freethinkers, and Humanists 
 
 ## About the Theme
 
-The theme for this year's conference is “Old and New: Timeless solutions for modern challenges.”
+The theme for this year's conference is “Old and New: Timeless Solutions for Modern Challenges.”
 We will be exploring humanism both as how it has been practiced in countries and places with strong humanist societies, and how we can learn from those groups and practices to expand humanism into new regions in the future.
 Furthermore, we will try to combine the lesson of the past, with the best thinking of today to help us navigate through challenges that are both old and new.
 
