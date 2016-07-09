@@ -23,4 +23,22 @@ icon: /assets/icons/ASH-logo.svg
 
 今年大會主題是「承先啟後：文明交會與省思」，人文主義是跨區域與族群的思想，尋求在不同地區與文化脈絡下發展，從中與在地文化對話與結合。此外，我們試圖向本土傳統學習，思考其在現代社會的挑戰與價值，並體會不同族群的歷史、文化與智慧。
 
+### 關於本網站
+
+{% if site.github_repo %}
+  The code that makes up this website is open.
+  You can find it at
+  {% include icon-github.html github_repo="strangehill/ash" %}
+{% endif %}
+{% if site.twitter_username %}
+  This site is built using Jekyll and its default template. It is currently maintained by
+  {% include icon-twitter.html username=site.twitter_username %}
+{% endif %}
+
+![編輯鉛筆的圖標](/assets/icons/edit.svg){: style="height:1em;"} 編輯鉛筆 [Gregor Cresnar]("http://www.flaticon.com/authors/gregor-cresnar") 做的圖標，  
+![註冊](/assets/icons/sign-up.svg){: style="height:1em;"} 註冊 [Freepik](http://www.freepik.com) 做的圖標，  
+![日曆、時間表](/assets/icons/calendar.svg){: style="height:1em;"} 日曆、
+![時鐘](/assets/icons/clock.svg){: style="height:1em;"} 時鐘、
+![地圖](/assets/icons/map-location.svg){: style="height:1em;"} 地圖圖標 [Madebyoliver](http://www.flaticon.com/authors/madebyoliver) 做的圖標，  
+These icons are in the creative commons and were taken from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> under a <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a> license.
 
