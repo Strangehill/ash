@@ -10,11 +10,12 @@ title: Asian Humanism Conference
 email: asianhumanismcon@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   This site is open to suggestions.
-  Click on pencil icons to propose changes with a free github account.
+  You'll need a (free) github account.
+  Then click on a pencil icon to get to the code, make your changes and when you're done click on "Propose file change".
 url: "http://ash.multifarious.net" # the base hostname & protocol for your site
 baseurl: "" # the subpath of your site, e.g. /blog
-# twitter_username: strangehill
-# github_username: strangehill
+twitter_username: strangehill
+github_repo: strangehill/ash/
 
 future: true
 
