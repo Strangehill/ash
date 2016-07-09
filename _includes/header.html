@@ -3,26 +3,30 @@
   <div class="wrapper">
 
 
-{% assign this-lang-path = "" %}
-{% assign other-lang-path = "" %}
+{% assign this-lang-path-to-index = "/" %}
+{% assign other-lang-path-to-index = "/" %}
+{% assign path_to_translation = "{{ page.permalink }}" %}
 
 {% if page.language %}
   {% if page.language == "en" %}
-    {% assign other-lang-path = "zh/" %}
+    {% assign other-lang-path-to-index = "/zh/" %}
+    {% capture path_to_translation %}/zh/{{page.permalink}}{% endcapture %}
   {% elsif page.language == "zh" %}
-    {% assign this-lang-path = "zh/" %}
+    {% assign this-lang-path-to-index = "/zh/" %}
+    {% capture path_to_translation %}{{page.english_permalink}} {% endcapture %}
   {% endif %}
 {% endif %}
 
-    <a class="site-title" href="{{ site.baseurl }}/{{ this-lang-path }}">
+    <a class="site-title" href="{{ site.baseurl }}{{ this-lang-path-to-index }}">
       <img alt="Logo for Asian Humanists" src="/assets/icons/ASH-logo.svg" style="width:3em;">
     </a>
+
     <span class="site-title">
-      <a href="{{ site.baseurl }}/{{ this-lang-path }}">
+      <a href="{{ site.baseurl }}{{ this-lang-path-to-index }}">
         {{ site.title }}
       </a>
       <div>
-      <a class="site-title-i18n" href="{{ site.baseurl }}/{{ other-lang-path }}">
+        <a class="site-title-i18n" href="{{ site.baseurl }}{{ path_to_translation }}">
         {% if page.language == "zh" %}
             in English
           {% elsif page.language == "en" %}
@@ -45,15 +49,17 @@
 
       <div class="trigger">
         {% for my_page in site.pages %}
-          {% if my_page.title %}
-          <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">
-            <figure>
-              <img src="{{ my_page.icon }}" style="height: 1.5em;">
-              <figcaption>
-                {{ my_page.title }}
-              </figcaption>
-            </figure>
-          </a>
+          {% if my_page.language == page.language %}
+            {% if my_page.title %}
+            <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">
+      <figure>
+                <img src="{{ my_page.icon }}" style="height: 1.5em;">
+                <figcaption>
+                  {{ my_page.title }}
+                </figcaption>
+              </figure>
+            </a>
+            {% endif %}
           {% endif %}
         {% endfor %}
       </div>

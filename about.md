@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About
+language: en
 permalink: /about/
 icon: /assets/icons/ASH-logo.svg
 ---
