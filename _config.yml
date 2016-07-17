@@ -21,4 +21,7 @@ future: true
 # Build settings
 markdown: kramdown
 
+sass:
+    style: compressed
+
 exclude: [package.json, node_modules, gulpfile.js]
