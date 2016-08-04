@@ -15,12 +15,11 @@
   {% endif %}
 {% endif %}
 
-    <a class="site-title" href="{{ site.baseurl }}{{ this-lang-path-to-index }}">
-      <img alt="Logo for Asian Humanists" src="/assets/icons/ASH-logo.svg" style="width:3em;">
-    </a>
-
     <span class="site-title">
-      <a href="{{ site.baseurl }}{{ this-lang-path-to-index }}">
+      <a class="site-title-logo" href="{{ site.baseurl }}{{ this-lang-path-to-index }}">
+        <img alt="Logo for Asian Humanists" src="/assets/icons/ASH-logo.svg" style="width:3em;">
+      </a>
+      <a class="site-title" href="{{ site.baseurl }}{{ this-lang-path-to-index }}">
         {% if page.language == "en" %}
         {{ site.title }}
         {% elsif page.language == "zh" %}
