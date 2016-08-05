@@ -11,7 +11,7 @@ title-zh: 2016 亞洲人文主義大會
 email: asianhumanismcon@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   This site is open to suggestions, so contact us or if you can use github click on the pencil icon to get to the code, make your changes and when you're done click on "Propose file change".
-url: "http://ash.multifarious.net" # the base hostname & protocol for your site
+url: "https://ash.multifarious.net" # the base hostname & protocol for your site
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: strangehill
 github_repo: strangehill/ash/
