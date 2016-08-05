@@ -23,24 +23,58 @@
 
 .letterhead {
     font-size: 26px;
-    font-weight: 300;
-    line-height: 56px;
     letter-spacing: -1px;
-    margin-bottom: 0;
-    float: left;
+    max-width: 20em;
+    padding: 0.5em 1em;
+    margin: 0 auto;
+    text-align: center;
+    overflow: hidden;
 
-    & a,
-    & a:visited {
+    & a {
         color: $grey-color-dark;
-    &-i18n {
-//        float: right;
-        display: inline-block;
-        margin-left: 7em;
-//        line-height: 1em;
-        border: 1px solid black;
-        border-radius: 0.2em;
-        padding: 0.2em;
-        font-size: 0.7em;
+        text-decoration: none;
+    }
+
+    &-logo {
+        float: left;
+    }
+    &-title {
+        display: block;
+        margin-left: 5em;
+        margin-top: 1.3em;
+        line-height: 1.5em;
+        letter-spacing: 0.5em;
+        font-weight: 400;
+
+        @include media-query($on-palm) {
+            letter-spacing: 0.25em;
+        }
+        @include media-query(500px) {
+            letter-spacing: 0em;
+            font-weight: 300;
+        }
+    }
+}
+
+.i18n {
+    position: absolute;
+    right: 1em;
+    //line-height: 1em;
+    border: 1px solid black;
+    border-radius: 0.2em;
+    padding: 0.2em 0.4em;
+    font-size: 1.4em;
+    &:hover {
+        text-decoration: none;
+    }
+
+    @include media-query($on-palm) {
+        font-size: 1.2em;
+        padding: 0.1em 0.3em;
+    }
+    @include media-query(500px) {
+        font-size: 1.2em;
+        padding: 0em 0.2em;
     }
 }
 
@@ -62,8 +96,6 @@
     }
 
     @include media-query($on-palm) {
-        position: absolute;
-        top: 9px;
         right: $spacing-unit / 2;
         background-color: $background-color;
         border: 1px solid $grey-color-light;

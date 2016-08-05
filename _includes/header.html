@@ -15,9 +15,17 @@
   {% endif %}
 {% endif %}
 
+    <a class="i18n" href="{{ site.baseurl }}{{ path_to_translation }}">
+    {% if page.language == "zh" %}
+        English
+      {% elsif page.language == "en" %}
+        中文
+    {% endif %}
+    </a>
+
     <div class="letterhead">
       <a class="letterhead-logo" href="{{ site.baseurl }}{{ this-lang-path-to-index }}">
-        <img alt="Logo for Asian Humanists" src="/assets/icons/ASH-logo.svg" style="width:3em;">
+        <img alt="Logo for Asian Humanists" src="/assets/icons/ASH-logo.svg" style="width:4.5em;">
       </a>
       <a class="letterhead-title" href="{{ site.baseurl }}{{ this-lang-path-to-index }}">
         {% if page.language == "en" %}
@@ -25,13 +33,6 @@
         {% elsif page.language == "zh" %}
         {{ site.title-zh }}
         {% endif %}
-      </a>
-      <a class="letterhead-i18n" href="{{ site.baseurl }}{{ path_to_translation }}">
-      {% if page.language == "zh" %}
-          in English
-        {% elsif page.language == "en" %}
-          中文
-      {% endif %}
       </a>
     </div>
 
