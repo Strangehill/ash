@@ -14,5 +14,6 @@
 	],
 	"theme_color": "#eeeeee",
 	"display": "standalone",
-	"start_url": "/?utm_source=homescreen"
+	"start_url": "/?utm_source=homescreen",
+	"manifest_version": 2
 }
