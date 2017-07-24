@@ -14,5 +14,5 @@
 	],
 	"theme_color": "#eeeeee",
 	"display": "standalone",
-	"start_url": "/"
+	"start_url": "/?utm_source=homescreen"
 }
