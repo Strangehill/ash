@@ -13,5 +13,6 @@
 		}
 	],
 	"theme_color": "#eeeeee",
-	"display": "standalone"
+	"display": "standalone",
+	"start_url": "/"
 }
